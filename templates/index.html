@@ -1,0 +1,278 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sunnatbek Samandarov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="{% static 'images/my-img.png'%}">
+    <title>SUNNATBEK SAMANDAROV</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="{% static 'css/main.css'%}">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div class="user">
+            <img src="{% static 'images/myphoto.jpg'%}" alt="myImg">
+            <h3 class="name">SUNNATBEK SAMANDAROV</h3>
+            <p class="post">backend developer</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#education">education</a></li>
+{#                <li><a href="#portfolio">portfolio</a></li>#}
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+            <div class="social-line">
+            <a href="https://www.youtube.com/channel/UCyK0dbfNrSzsewrJm3Js8gw"> <i class="fab fa-youtube"></i> </a>
+            <a href="https://www.instagram.com/samandarov_1_official"> <i class="fab fa-instagram"></i> </a>
+            <a href="https://www.telegram.me/Samandarov_S07"> <i class="fab fa-telegram"></i> </a>
+            <a href="https://github.com/sunnat7777"> <i class="fab fa-github"></i> </a>
+        </div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <h3>HI THERE !</h3>
+        <h1>I'M <span>sunnatbek samandarov</span></h1>
+        <p>I'm Software engineer and Freelancer (Back-end). Contact me for further details.
+        </p>
+        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about</span> me </h1>
+
+        <div class="row">
+
+            <div class="info">
+                <h3> <span> name : </span> Sunnatbek Samandarov </h3>
+                <h3> <span> age : </span> 19 </h3>
+                <h3> <span> qualification : </span> EC</h3>
+                <h3> <span> post : </span> Web developer </h3>
+                <h3> <span> language : </span> Uzbek & English </h3>
+                <a href="https://drive.google.com/file/d/1ywM1c8f0HigZ3ThIlishZeP96KwIlLPj/view?usp=sharing"><button
+                        class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+            </div>
+
+            <div class="counter">
+
+                <div class="box">
+                    <span>6</span>
+                    <h3>months of experience</h3>
+                </div>
+
+                <div class="box">
+                    <span>3</span>
+                    <h3>projects completed</h3>
+                </div>
+
+                <div class="box">
+                    <span>0</span>
+                    <h3>happy clients</h3>
+                </div>
+
+                <div class="box">
+                    <span>0</span>
+                    <h3>awards won</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- education section starts  -->
+
+    <section class="education" id="education">
+
+        <h1 class="heading"> my <span>education</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2019 - 2021</span>
+                <h3>Karakul academic lyceum</h3>
+                <p>I have studied for 2 years in one of the most prestigious lyceum in Uzbekistan. At first my intention
+                    was to be an economist but then I changed my mind</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021</span>
+                <h3>TUIT(Tashkent University of Information Technologies)</h3>
+                <p>I'm currently studying in the faculty of EC(Electronical Commers) and my second job
+                    is Software engineering (Back-end)</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- education section ends -->
+
+    <!-- portfolio section starts  -->
+
+{#    <section class="portfolio" id="portfolio">#}
+{##}
+{#        <h1 class="heading"> my <span>portfolio</span> </h1>#}
+{##}
+{#        <div class="box-container">#}
+{##}
+{#            <div class="box">#}
+{#                <a target="_blank" href="https://project-maxway.netlify.app">#}
+{#                    <div class="cover"></div>#}
+{#                    <h1>MAXWAY</h1>#}
+{#                    <img src="{% static 'images/img1.png" alt="img1'%}">#}
+{#                </a>#}
+{#            </div>#}
+{##}
+{#            <div class="box">#}
+{#                <a target="_blank" href="https://uzmobilewebsite.netlify.app">#}
+{#                    <div class="cover"></div>#}
+{#                    <h1>UZMOBILE</h1>#}
+{#                    <img src="{% static 'images/img2.png" alt="img2'%}">#}
+{#                </a>#}
+{#            </div>#}
+{##}
+{#            <div class="box">#}
+{#                <a target="_blank" href="https://ulugbek-temirov-portfolio.netlify.app">#}
+{#                    <div class="cover"></div>#}
+{#                    <h1>PORTFOLIO</h1>#}
+{#                    <img src="{% static 'images/img3.png" alt="img3'%}">#}
+{#                </a>#}
+{#            </div>#}
+{##}
+{#            <div class="box">#}
+{#                <a target="_blank" href="https://umovies-project.netlify.app">#}
+{#                    <div class="cover"></div>#}
+{#                    <h1>UMOVIES</h1>#}
+{#                    <img src="{% static 'images/img4.png" alt="img4'%}">#}
+{#                </a>#}
+{#            </div>#}
+{##}
+{#            <div class="box">#}
+{#                <a target="_blank" href="https://handshake-project.netlify.app">#}
+{#                    <div class="cover"></div>#}
+{#                    <h1>HANDSHAKE</h1>#}
+{#                    <img src="{% static 'images/img5.png" alt="img5'%}">#}
+{#                </a>#}
+{#            </div>#}
+{##}
+{#            <div class="box">#}
+{#                <a target="_blank" href="">#}
+{#                    <div class="cover"></div>#}
+{#                    <h1>COMING SOON</h1>#}
+{#                    <img src="{% static 'images/img6.png" alt="img6">#}
+{#                </a>#}
+{#            </div>#}
+{##}
+{#        </div>#}
+{##}
+{#    </section>#}
+
+    <!-- portfolio section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> me </h1>
+
+        <div class="row">
+
+            <div class="content">
+
+                <h3 class="title">contact info</h3>
+
+                <div class="info">
+                    <h3> <i class="fas fa-envelope"></i> sunnatbeksamandarov11.com </h3>
+                    <h3> <i class="fas fa-phone"></i> <a href="tel:+998945626446"> +998 94 562-64-46 </a> </h3>
+{#                    <h3> <i class="fas fa-phone"></i> <a href="tel:+998900463672"> +998 90 046-36-72 </a> </h3>#}
+                    <h3> <i class="fas fa-map-marker-alt"></i> <a target="_blank"
+                            href="https://goo.gl/maps/4ooQ6AKcLi7QdK6d7"> Tashkent, Uzbekistan - 200100. </a> </h3>
+                </div>
+
+            </div>
+
+            <form method="POST" data-netlify="true">
+                {% csrf_token %}
+                {%for form in forms %}
+                   <div class="box">
+                {{ form.label_tag }}{{ form }}
+                    </div>
+                {% endfor %}
+                <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+
+    <!-- scroll top button  -->
+
+    <a href="#home" class="top">
+        <img src="{% static 'images/scroll-top-img.png'%}" alt="">
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="{% static 'js/script.js'%}"></script>
+
+
+</body>
+
+</html>
