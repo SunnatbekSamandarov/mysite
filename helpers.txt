@@ -1,0 +1,16 @@
+---- postgresqldan foydalanilyapti ----
+
+#### DATABASE setting
+-----  CREATE USER "my_user" WITH PASSWORD 'my_root';
+-----  CREATE DATABASE "my_db" OWNER 'my_user';
+
+#### Create user
+---- python manage.py createsuperuser
+
+   username --- admin
+   email   ---  admin@my.uz
+   password --- 123456
+
+####  How to use dumpdata and loaddata
+------   python manage.py dumpdata app_name > app_name/fixtures/db.json
+------  python manage.py loaddata db.json

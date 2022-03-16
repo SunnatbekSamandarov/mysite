@@ -231,8 +231,8 @@
             <form method="POST" data-netlify="true">
                 {% csrf_token %}
                 {%for form in forms %}
-                   <div class="box">
-                {{ form.label_tag }}{{ form }}
+                   <div style="background-color:#000000" class="box">
+                  {{ form.label_tag }}  {{ form }}
                     </div>
                 {% endfor %}
                 <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
